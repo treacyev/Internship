@@ -1,0 +1,52 @@
+body {
+	background-color: #D7CCC8;
+}
+
+.ui.large.raised.segment {
+	background-image: url("../images/white-wall.png");
+	margin: 30px;
+	height: 850px;
+}
+
+.ui.basic.segment {
+	width: 500px;
+	margin-top: 190px;
+}
+
+#register:hover {
+	background-color: #A93226;
+	color: white;
+}
+
+#register2 {
+	background-color: #A93226;
+	color: white;
+}
+
+#register2:hover {
+	background-color: #DF0000;
+
+}
+
+#register3 {
+	background-color: #A93226;
+	color: white;
+}
+
+#register3:hover {
+	background-color: #DF0000;
+	color: white;
+}
+
+#login {
+	background-color: #006E90;
+	color: white;
+}
+
+#login:hover {
+	background-color: #3F9BDF;
+}
+
+.ui.image.header {
+	font-size: 40px;
+}

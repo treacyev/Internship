@@ -1,0 +1,170 @@
+body {
+	background-color: #D7CCC8;
+}
+
+td, th {
+	padding: 10px;
+	font-size: 13px;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+p {
+	font-size: 15px;
+}
+
+#sha span {
+    white-space: nowrap;
+    overflow: hidden;
+    display:inline-block;
+}
+
+#sha span:first-child {
+    width: 50px;
+    text-overflow: ellipsis;
+}
+ 
+#sha span + span {
+    text-align:right;
+}
+
+#editform {
+	width:930px; 
+	font-size: 15px;
+	overflow: auto;
+}
+
+#accounts {
+	width: 900px;
+}
+	
+#database {
+	margin: 20px;
+	margin-top: 30px;
+	height: 65vh;
+	overflow: scroll;
+}
+
+#database2 {
+	max-height: 500px;
+	overflow: scroll;
+	overflow-x: hidden;
+	margin: 50px;
+	width: 900px;
+}
+
+#errormessage {
+	color: red; 
+	margin-top: 300px; 
+	font-size: 35px; 
+	text-transform: lowercase;
+}	
+
+#editablefields {
+	background-color: #F4F6F6;
+	margin-top: 5px;
+}
+
+#editablefields:hover, #enggfields:hover {
+	border: 1px solid #85C1E9;
+}
+
+#enggfields {
+	background-color: #F9EBEA;
+	margin-top: 5px;
+}
+
+#editable {
+	color: #BB0B0B;
+	margin-left: 5px;
+}
+
+#labelcheck {
+	font-size: 17px;
+}
+
+#update {
+	margin-bottom: 30px;
+	border: 1px solid #006E90;
+	background-color: white;
+	color: #006E90;
+}
+
+#update:hover {
+	color: white;
+	background-color: #006E90;
+}
+
+#active {
+	background-color: #006E90;
+	color: white;
+}
+
+#active:hover, #deactive:hover {
+	background-color: #A93226;
+	color: white;
+}
+
+#edit {
+	background-color: #006E90;
+	color: white;
+	border: 1px solid #006E90;
+}
+
+#search {
+	background-color: #006E90;
+	color: white;
+	border: 1px solid #006E90;
+}
+
+#search:hover {
+	color: #006E90;
+	background-color: #E5E7E9;
+	border: 1px solid #85C1E9;
+}
+
+#export {
+	background-color: #006E90;
+	color: white;
+	border: 1px solid #006E90;
+}
+
+#export:hover, #edit:hover {
+	color: #006E90;
+	border: 1px solid #006E90;
+	background-color: white;
+}
+
+.ui.menu.borderless {
+	height: 95px;
+}
+			
+.right.menu {
+	margin-top: 20px;
+}
+			
+.ui.positive.tiny.button {
+	margin-top: 20px;
+}
+
+.highlight_row {
+	background-color: #D6EAF8;
+}
+
+.ui.big.circular.label {
+	background-color: #006E90;
+	color: white;
+}
+
+.ui.large.raised.segment {
+	background-image: url("../images/white-wall.png");
+	margin: 20px;
+	min-height: 850px;
+	overflow: auto;
+}
+
+.ui.left.aligned.raised.segment {
+	overflow: auto;
+	font-size: 16px;
+}
